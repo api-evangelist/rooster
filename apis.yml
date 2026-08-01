@@ -1,7 +1,24 @@
 aid: rooster
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/rooster.png
 name: Rooster
-description: Rooster is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Rooster is a subscription mobile reading app built by Plympton, Inc., a
+  literary studio co-founded by Jennifer 8. Lee, Yael Goldstein Love, and Jacky Chang.
+  Rooster delivers serialized fiction to readers' phones in short, commute-sized installments
+  for a flat monthly fee, drawing on Plympton's DailyLit heritage of serialized reading.
+  It was surfaced as a portfolio company of 500 Global and added to the API Evangelist
+  network. Rooster is a consumer-facing app; Plympton publishes no public API, SDK,
+  developer portal, or webhook surface as of this enrichment pass.
 url: https://raw.githubusercontent.com/api-evangelist/rooster/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +28,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Reading
+- Publishing
+- Serialized Fiction
+- Mobile App
+- Consumer
+- Media
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +46,8 @@ maintainers:
 common:
 - type: Website
   url: https://plympton.com
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
